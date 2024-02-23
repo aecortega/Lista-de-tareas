@@ -1,0 +1,83 @@
+@font-face {
+    font-family: 'play';
+    src: url('fuente/PlaypenSans-ExtraLight.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to right, #2c3e50, #4ca1af);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'play', cursive;
+}
+
+.contenedor {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    border-color: #2c3e50;
+}
+
+.btn-outline-success {
+    color: #2c3e50;
+    border-color: #2c3e50;
+}
+
+.btn-outline-success:hover {
+    color: #fff;
+    background-color: #2c3e50;
+    border-color: #2c3e50;
+}
+
+.estiloTarea {
+    background-color: #f8f9fa;
+    border: solid 3px #6c757d;
+    display: flex;
+    font-family: 'play', cursive;
+    font-size: 20px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.completa {
+    color: #28a745;
+}
+
+.eliminar {
+    color: #dc3545;
+}
+
+.marcarCompleto {
+    text-decoration: line-through;
+    background-color: #d4edda;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+}
